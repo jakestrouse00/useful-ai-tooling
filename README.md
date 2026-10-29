@@ -36,8 +36,16 @@ Alternatives:
 ```
 skills/            Agent skills in SKILL.md format, grouped by category
 ├── python/          Skills useful for Python projects
+│   ├── verify-imports/
+│   └── pip-over-uv/
 ├── code-style/      Writing consistent code in existing repos
+│   └── match-existing-style/
 ├── testing/
+│   └── verify/        Drive the changed surface; VERIFIED/SKIP/BLOCKED verdicts
+├── development/
+│   └── subagent-driven-development/   Plan execution via per-task subagent dispatch
+├── memory/
+│   └── memory/        Persistent file-based memory across sessions
 ├── git/
 └── documentation/
 
@@ -46,7 +54,7 @@ agents-md/         AGENTS.md content library
 ├── templates/        Starter AGENTS.md skeletons
 
 commands/          Tool-specific custom command definitions
-└── opencode/        OpenCode command markdown files
+└── opencode/        OpenCode command markdown files (verify, remember, design)
 ```
 
 ## Conventions
