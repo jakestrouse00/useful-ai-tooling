@@ -49,11 +49,16 @@ category), custom agent commands, and AGENTS.md snippets/templates.
 2. Read its README.md, then review the available assets:
    - skills/: every SKILL.md's name and description frontmatter
    - commands/opencode/: each command's purpose from its frontmatter
+   - mcps/README.md: the recommended MCP servers, in install-priority order
    - agents-md/: the AGENTS.template.md starter and the snippets
 3. Recommend which assets fit THIS project, based on its stack, structure,
-   and how agents will be used here. Present a short table: asset, why it
-   fits, and any you considered but rejected with a one-line reason.
-   Wait for my confirmation before installing anything.
+   and how agents will be used here. MCPs: rea (Reverse Engineer Anything,
+   https://github.com/jakestrouse00/rea) is the default first install —
+   propose it unless the project clearly has no use for it, and follow the
+   install/verify steps in mcps/README.md. Present a short table for
+   everything else: asset, why it fits, and any you considered but rejected
+   with a one-line reason. Wait for my confirmation before installing
+   anything except rea, which I want set up in every project.
 4. After I confirm, wire them in for this tool:
    - OpenCode: add {"$schema": "https://opencode.ai/config.json",
      "skills": ["~/code/useful-ai-tooling/skills"]} to opencode.json
@@ -98,6 +103,9 @@ agents-md/         AGENTS.md content library
 
 commands/          Tool-specific custom command definitions
 └── opencode/        OpenCode command markdown files (verify, remember, design)
+
+mcps/              Recommended MCP servers, in install-priority order
+└── README.md         #1: rea (Reverse Engineer Anything) expansion fork
 ```
 
 ## Conventions
