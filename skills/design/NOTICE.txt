@@ -1,0 +1,22 @@
+Provenance notice for skills/design/
+
+Contents of this directory are a UI/UX design skill pack ported from the
+TerpeneTalkV2 project's .opencode/skills (origin: third-party marketplace
+skills, including the "ui-ux-pro-max" pack). Included as-is:
+
+  accessibility-inclusive-design   interaction-patterns-components
+  banner-design                    slides
+  brand                            ui-styling
+  design                           ui-ux-pro-max
+  design-system                    ui-visual-composition
+  design-systems-frontend-arch...  ux-research-discovery-testing
+  forms-inputs-checkout            ux-usability-foundations
+  information-architecture-nav...  ux-writing-content-design
+
+License status: NOT VERIFIED. No license files ship with the pack. The
+ui-ux-pro-max SKILL.md contains internal license/copyright references
+(data catalogs, test fixtures). If you republish this repository, confirm
+each pack member's original license first.
+
+This file is .txt on purpose: loose .md files in skill source directories
+can be picked up as skills.

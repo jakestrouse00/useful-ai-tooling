@@ -84,6 +84,11 @@ skills/            Agent skills in SKILL.md format, grouped by category
 │   └── subagent-driven-development/   Plan execution via per-task subagent dispatch
 ├── memory/
 │   └── memory/        Persistent file-based memory across sessions
+├── design/            UI/UX design skill pack (16 skills, see NOTICE.txt)
+│   ├── ui-ux-pro-max/
+│   ├── design-system/
+│   ├── accessibility-inclusive-design/
+│   └── ... 13 more UX/design skills
 ├── git/
 └── documentation/
 
